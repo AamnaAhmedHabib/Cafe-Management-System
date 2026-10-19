@@ -1,0 +1,36 @@
+# Only the main app, its database scripts, its font and the README are committed.
+# Everything else at the repo root stays local: WIP/ (practice projects),
+# Images/ (design images, screenshots) and Archives/ (zip backups).
+/*
+!/.gitignore
+!/Cafe Solution/
+!/Vintage Cafe SQL/
+!/Pixelify_Sans/
+!/README.md
+
+# Visual Studio
+.vs/
+*.suo
+*.user
+*.userosscache
+*.sln.docstates
+*.vsidx
+
+# Build output
+[Bb]in/
+[Oo]bj/
+[Dd]ebug/
+[Rr]elease/
+x64/
+x86/
+*.pdb
+*.cache
+
+# NuGet
+packages/
+*.nupkg
+
+# OS
+.DS_Store
+Thumbs.db
+desktop.ini
